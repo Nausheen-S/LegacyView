@@ -27,4 +27,20 @@
 	
 	1042
 	- Created the new README.md file to hold overview of project.
+	
+	1044
+	- Defining the properties for the product DVD:
+		•	DVDId – Primary key
+		•	DVDName – Title of DVD
+		•	DVDGenre – Genre of DVD
+		•	DVDDescription – Some information on the DVD
+		•	DVDPrice – Cost of DVD
+		•	DVDReleaseDate – date of release of DVD
+		•	DVDPoster – Image of DVD cover
+		•	DVDCustomerReview – Customer Review of DVD
+
+	1047
+	- Start creating the MVC. 
+	- Begin with creating the model for DVD. 
+	- Move on to scaffolding the MVC for LegacyView
 
