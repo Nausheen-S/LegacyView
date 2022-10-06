@@ -36,11 +36,15 @@
 		•	DVDDescription – Some information on the DVD
 		•	DVDPrice – Cost of DVD
 		•	DVDReleaseDate – date of release of DVD
-		•	DVDPoster – Image of DVD cover
+		•	DVDPoster – Image of DVD cover (static)
 		•	DVDCustomerReview – Customer Review of DVD
 
 	1047
 	- Start creating the MVC. 
 	- Begin with creating the model for DVD. 
+	
+	1152
+	- Created the model class. Yet to test it. Saving changes for now.
+	- Due to short time, the posters are just going to be static images and not stored in DB
 	- Move on to scaffolding the MVC for LegacyView
 
