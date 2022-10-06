@@ -16,8 +16,7 @@
 
 	1015
 	- Everything works well.
-
-	Let us define the problem statement:
+	- Let us define the problem statement:
 		- To create an ASP.NET MVC project for the given product (DVD).
 		  Also, note details of the object and review the architecture 
 		  of a robust MVC web application to generate a product catalogue 
@@ -25,4 +24,7 @@
 
 		- Update the GitHub repository, and also add a README.md to contain
 		  a preview of the project.
+	
+	1042
+	- Created the new README.md file to hold overview of project.
 
