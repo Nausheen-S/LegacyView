@@ -46,5 +46,22 @@
 	1152
 	- Created the model class. Yet to test it. Saving changes for now.
 	- Due to short time, the posters are just going to be static images and not stored in DB
-	- Move on to scaffolding the MVC for LegacyView
 
+2022-10-10 1044
+	- Continuing with the project.
+	- First rebuilt the application.
+	- Ran the system, everything works well.
+	- Added the nuget package for EF : Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 3.1
+	- Ran to check application again. Works fine.
+	- Now creating context class.
+
+	1100
+	- Added the nuget packages and other required dependencies for EF.
+	- Built the system for precaution.
+	- Now going to scaffold the CRUD pages.
+
+	1106
+	- Created the CRUD Pages using scaffolding. 
+	- Still cannot run the application as the DB does not exist.
+	- Will first push the changes to github before beginning the next step.
+	

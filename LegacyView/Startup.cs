@@ -33,6 +33,9 @@ namespace LegacyView
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+            //register LegacyViewContext 
+            services.AddDbContext<LegacyViewContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("LegacyViewContext")));
             services.AddRazorPages();
         }
 
