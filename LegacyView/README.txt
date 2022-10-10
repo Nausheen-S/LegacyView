@@ -64,4 +64,8 @@
 	- Created the CRUD Pages using scaffolding. 
 	- Still cannot run the application as the DB does not exist.
 	- Will first push the changes to github before beginning the next step.
+
+	1109
+	- GitHub now up to date.
+	- Begin by adding the migrations.
 	
