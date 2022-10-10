@@ -20,9 +20,17 @@ namespace LegacyView.Controllers
         }
 
         // GET: DVDs
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString) //adding searchString as parameter
         {
-            return View(await _context.DVD.ToListAsync());
+            var dvds = from d in _context.DVD
+                         select d;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                //querying for dvd matching searchString
+                dvds = dvds.Where(s => s.DVDName.Contains(searchString)); //Lambda Expression
+            }
+            return View(await dvds.ToListAsync());
         }
 
         // GET: DVDs/Details/5

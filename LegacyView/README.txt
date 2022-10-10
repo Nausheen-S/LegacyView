@@ -89,4 +89,18 @@
 
 	0509
 	- Tested the app. Everything works fine.
+	- Pushing changes to GitHub before continuing.
+
+	 0533
+	 - Changed the display names and added some data annotations in DVD.cs file
+	 - Checked the app. Everything runs fine.
+	 - Moving on to adding Search capability.
+
+	 0611
+	 - Added search functionality.
+	 - Tested app for search via URL. Everything works fine.
+
+	 0618
+	 - Added form to search.
 	 - Pushing changes to GitHub before continuing.
+	 - Next is to add Search using genre.

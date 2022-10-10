@@ -6,9 +6,20 @@
 
 <h1>Index</h1>
 
+<!--Links to DVD Create Page-->
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<!--Adding form for search-->
+<form asp-controller="DVDs" asp-action="Index" method="get"> <!--get attribute allows for sharing and adding bookmarks-->
+    <p>
+        DVD Name: <input type="text" name="SearchString" />
+        <input type="submit" value="Search" />
+    </p>
+</form>
+
+<!--Table to display DVDs-->
 <table class="table">
     <thead>
         <tr>
