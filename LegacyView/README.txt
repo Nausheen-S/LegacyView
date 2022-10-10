@@ -82,3 +82,11 @@
 	- Pushing changes to GitHub.
 
 	
+	0507
+	- Added the seed data.
+	- Updated Program.cs file to reference SeedData.
+	- deleted the contents from application to test SeedData
+
+	0509
+	- Tested the app. Everything works fine.
+	 - Pushing changes to GitHub before continuing.
