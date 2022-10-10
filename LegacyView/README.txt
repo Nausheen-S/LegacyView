@@ -68,4 +68,17 @@
 	1109
 	- GitHub now up to date.
 	- Begin by adding the migrations.
+
+	1559
+	- Added the migration and updated the database. 
+	- The application now runs displaying the table for DVDs.
+	- The deps.json warning still remains (only on mac machine) although does not cause error.
+	- As this is a virtual machine, update db, i.e., apply migrations from browser as well (just click on apply migration).
+	- Pushed the migrations to GitHub as well.
+	- Now have to test adding DVDs.
+
+	0408
+	- Tested the application. The CRUD functionalities work well.
+	- Pushing changes to GitHub.
+
 	
