@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LegacyView.Models.DVD>
+﻿@model LegacyView.Models.DVDGenreViewModel 
 
 @{
     ViewData["Title"] = "Index";
@@ -14,6 +14,12 @@
 <!--Adding form for search-->
 <form asp-controller="DVDs" asp-action="Index" method="get"> <!--get attribute allows for sharing and adding bookmarks-->
     <p>
+        <!--Get the genre list-->
+        <select asp-for="DvdGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+
+        <!--input for DVD Name search-->
         DVD Name: <input type="text" name="SearchString" />
         <input type="submit" value="Search" />
     </p>
@@ -24,28 +30,28 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.DVDName)
+                @Html.DisplayNameFor(model => model.DVDs[0].DVDName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DVDGenre)
+                @Html.DisplayNameFor(model => model.DVDs[0].DVDGenre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DVDDescription)
+                @Html.DisplayNameFor(model => model.DVDs[0].DVDDescription)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DVDPrice)
+                @Html.DisplayNameFor(model => model.DVDs[0].DVDPrice)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ReleaseDate)
+                @Html.DisplayNameFor(model => model.DVDs[0].ReleaseDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DVDCustomerReview)
+                @Html.DisplayNameFor(model => model.DVDs[0].DVDCustomerReview)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.DVDs) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.DVDName)

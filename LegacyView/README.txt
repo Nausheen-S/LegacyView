@@ -104,3 +104,12 @@
 	 - Added form to search.
 	 - Pushing changes to GitHub before continuing.
 	 - Next is to add Search using genre.
+
+	 0813
+	 - Added all required classes and fields for search by genre.
+	 - Will now test the application.
+
+	 0815
+	 - Tested the app. Everything works fine.
+	 - As the project requires us to have 5 properties apart from customer review, I will add an additional field.
+	 - But first, push all changes to GitHub.

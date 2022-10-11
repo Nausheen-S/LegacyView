@@ -20,17 +20,33 @@ namespace LegacyView.Controllers
         }
 
         // GET: DVDs
-        public async Task<IActionResult> Index(string searchString) //adding searchString as parameter
+        public async Task<IActionResult> Index(string DvdGenre, string searchString) //adding searchString and DvdGenre as parameter
         {
-            var dvds = from d in _context.DVD
-                         select d;
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from d in _context.DVD orderby d.DVDGenre select d.DVDGenre;
+
+            //Get DVDs
+            var dvds = from d in _context.DVD select d;
 
             if (!String.IsNullOrEmpty(searchString))
             {
                 //querying for dvd matching searchString
                 dvds = dvds.Where(s => s.DVDName.Contains(searchString)); //Lambda Expression
             }
-            return View(await dvds.ToListAsync());
+
+            //get the matching genre if search by genre value present (that is string not null / empty)
+            if (!string.IsNullOrEmpty(DvdGenre))
+            {
+                dvds = dvds.Where(g => g.DVDGenre == DvdGenre);
+            }
+
+            var DVDGenreVM = new DVDGenreViewModel //new instance of class
+            {
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                DVDs = await dvds.ToListAsync()
+            };
+
+            return View(DVDGenreVM);
         }
 
         // GET: DVDs/Details/5
