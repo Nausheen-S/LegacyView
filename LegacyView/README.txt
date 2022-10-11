@@ -146,3 +146,10 @@
 	 - Updated controller and views for new page
 	 - tested app, works fine
 	 - push to GitHub now
+
+	 1055
+	 - Added content to about us page
+	 - tested the app, works well
+	 - to do: change the default style and add posters for DVDs
+	 - now push to GitHub
+
