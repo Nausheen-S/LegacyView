@@ -180,3 +180,8 @@
 	- Updated the year and tested app
 	- push to github
 	- to do: add images, publish to azure
+
+	1524
+	- Added images and tested app
+	- looks good
+	- push to GitHub and then begin deployment
