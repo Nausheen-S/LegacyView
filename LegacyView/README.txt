@@ -128,3 +128,13 @@
 	 - Seeded data
 	 - App works fine
 	 - Now push changes to GitHub
+
+	 1001
+	 - Pushed data to GitHub
+	 - Add some validation now
+
+	 1022
+	 - Added some validation and appropriate datatypes
+	 - tested the app, it works fine
+	 - Will now push to GitHub
+	 - Then need to add page for about us and update links.
