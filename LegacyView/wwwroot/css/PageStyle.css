@@ -49,3 +49,13 @@ thead th {
     color: #B73E3E !important;
 }
 
+input[type="submit"] {
+    background-color: #B73E3E !important;
+    font-family: Secular_One, sans-serif;
+    color:white!important;
+    border:none;
+    border-radius: 5%;
+    padding: 4px;
+    width: 12%;
+}
+
