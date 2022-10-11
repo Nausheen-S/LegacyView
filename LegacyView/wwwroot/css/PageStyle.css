@@ -1,0 +1,51 @@
+﻿@font-face {
+    font-family: Secular_One;
+    src: url(../fonts/Secular_One/SecularOne-Regular.ttf);
+}
+
+html, body {
+    /*background-color*/
+    background-color: #EDDBC0 !important;
+}
+
+h1 {
+    padding-top: 3%;
+    color: #B73E3E !important;
+    font-family: Secular_One, sans-serif;
+}
+
+h2 {
+    padding-top: 3%;
+    color: #B73E3E !important;
+    font-family: Secular_One, sans-serif;
+}
+
+.index_sub_info {
+    color: #DD5353 !important;
+    font-family: 'Arial Rounded MT', sans-serif;
+}
+
+p > a {
+    color: #DD5353;
+    text-decoration:underline;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.index_personal_info {
+    padding-top: 3%;
+    color: #DD5353 !important;
+    font-family: 'Arial Rounded MT', sans-serif;
+}
+
+tr {
+    border: 2px solid #DD5353;
+}
+
+thead th {
+    border-bottom: 2px solid #DD5353 !important;
+    color: #B73E3E !important;
+}
+

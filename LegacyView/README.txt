@@ -153,3 +153,12 @@
 	 - to do: change the default style and add posters for DVDs
 	 - now push to GitHub
 
+	 2022-10-11 0925
+	 - Will now continue by changing the default style.
+	 - first update-database,  build and test code
+	 - built and tested code, evrything works fine.
+
+	 1136
+	 - Added new style pages and styles
+	 - app tested to work ok
+	 - push changes to GitHub

@@ -6,34 +6,33 @@
     <title>@ViewData["Title"] - LegacyView</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    @*Added links to new stylesheet*@
+    <link rel="stylesheet" href="~/css/Navigation.css" />
+    <link rel="stylesheet" href="~/css/PageStyle.css" />
+
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
+        <!--changed nav to dark background-->
                 <!--updated the link-->
-                <a class="navbar-brand" asp-area="" asp-controller="DVDs" asp-action="Index">DVD List</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
+                    <!--made different navs and added id-->
+                    <ul id="navbckgrnd" class="nav navbar-expand-lg
+                        justify-content-around">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home Page</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home Page</a>
                         </li>
                         <!--added link to new page-->
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About Us</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="About">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="DVDs" asp-action="Index">DVD List</a>
+                        </li>
+                        <li class="nav-item">
+                            <!--changed text to light-->
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
                         </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
