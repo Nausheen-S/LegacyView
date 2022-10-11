@@ -4,16 +4,17 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="text-center">Index</h1>
 
 <!--Links to DVD Create Page-->
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="create_link" asp-action="Create">Create New</a>
 </p>
 
 <!--Adding form for search-->
 <form asp-controller="DVDs" asp-action="Index" method="get"> <!--get attribute allows for sharing and adding bookmarks-->
-    <p>
+    <!--Added class to center text-->
+    <p class="text-center">
         <!--Get the genre list-->
         <select asp-for="DvdGenre" asp-items="Model.Genres">
             <option value="">All</option>
@@ -79,9 +80,10 @@
                 @Html.DisplayFor(modelItem => item.DVDProductionCompany)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.DVDId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.DVDId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.DVDId">Delete</a>
+                <!--add class-->
+                <a class="edit_link" asp-action="Edit" asp-route-id="@item.DVDId">Edit</a> |
+                <a class="edit_link" asp-action="Details" asp-route-id="@item.DVDId">Details</a> |
+                <a class="edit_link" asp-action="Delete" asp-route-id="@item.DVDId">Delete</a>
             </td>
         </tr>
 }

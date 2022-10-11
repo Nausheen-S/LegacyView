@@ -162,3 +162,13 @@
 	 - Added new style pages and styles
 	 - app tested to work ok
 	 - push changes to GitHub
+
+	 1310
+	 - Continuing with styling.
+	 - Build and test app first. Looks good
+
+	 1426
+	 - Added style to DVD Pages and other Pages as well.
+	 - Tested everything, works fine
+	 - Push code now to GitHub
+	

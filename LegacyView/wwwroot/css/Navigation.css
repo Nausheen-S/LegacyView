@@ -1,19 +1,26 @@
-﻿@font-face {
+﻿/*
+    FileName: Navigation.css
+    Purpose: contains navigation styles
+    Author: Nausheen Salauddin
+*/
+
+/*reference downloaded font*/
+@font-face {
     font-family: Secular_One;
     src: url(../fonts/Secular_One/SecularOne-Regular.ttf);
 }
 
-
-
+/*navigation bar background*/
 #navbckgrnd {
-    background-color: #B73E3E !important;
+    background-color: #2E1114 !important;
     padding: 0.8%;
 }
 
+/*navigation items*/
 .nav-link {
     font-size: 1.2em !important;
     font-weight: bold;
     font-family: Secular_One;
     letter-spacing: 1.2px;
-    color: #DBC8AC!important;
+    color: #83677B!important;
 }

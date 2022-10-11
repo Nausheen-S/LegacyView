@@ -1,61 +1,137 @@
-﻿@font-face {
+﻿/*
+    FileName: PageStyles.css
+    Purpose: contains page styles for different pages
+    Author: Nausheen Salauddin
+*/
+
+/*reference downloaded font*/
+@font-face {
     font-family: Secular_One;
     src: url(../fonts/Secular_One/SecularOne-Regular.ttf);
 }
 
+/*page background-color*/
 html, body {
-    /*background-color*/
-    background-color: #EDDBC0 !important;
+    background-color: #cab7b7 !important;
 }
 
+/*header styles*/
 h1 {
     padding-top: 3%;
-    color: #B73E3E !important;
+    color: #501B1D !important;
     font-family: Secular_One, sans-serif;
 }
 
 h2 {
     padding-top: 3%;
-    color: #B73E3E !important;
+    color: #64485C !important;
     font-family: Secular_One, sans-serif;
 }
 
+/*Main text Styles*/
+.index_personal_info {
+    padding-top: 3%;
+    color: #64485C !important;
+    font-family: 'Arial Rounded MT', sans-serif;
+}
+
 .index_sub_info {
-    color: #DD5353 !important;
+    color: #64485C !important;
     font-family: 'Arial Rounded MT', sans-serif;
 }
 
 p > a {
-    color: #DD5353;
-    text-decoration:underline;
+    color: #64485C;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: darkgray;
+    color: #501B1D;
 }
 
-.index_personal_info {
-    padding-top: 3%;
-    color: #DD5353 !important;
-    font-family: 'Arial Rounded MT', sans-serif;
+/*Home Page*/
+.index_heading {
+    font-style:italic;
 }
 
+/*About Us Page*/
+.about_text {
+    text-align: justify;
+    color: #4D1E23 !important;
+    font-size: 1.2em;
+}
+
+.about_heading {
+    text-align: left!important;
+}
+
+/*Privacy Page*/
+.privacy_text {
+    text-align: justify;
+    color: #4D1E23 !important;
+    font-size: 1.2em;
+}
+
+/*DVD Index Page*/
+.create_link {
+    color: #D02229 !important;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.edit_link {
+    color: #D02229 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*DVD Create, Edit Page*/
+.style_form {
+    justify-content: center !important;
+}
+
+.back_link {
+    color: #D02229 !important;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+    float:right;
+}
+
+/*DVD Details Page*/
+.edit_link {
+    color: #D02229 !important;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Table styles for DVDs*/
 tr {
-    border: 2px solid #DD5353;
+    border: 2px solid #501B1D;
 }
 
 thead th {
-    border-bottom: 2px solid #DD5353 !important;
-    color: #B73E3E !important;
+    border-bottom: 2px solid #501B1D !important;
+    color: #501B1D !important;
 }
 
 input[type="submit"] {
-    background-color: #B73E3E !important;
+    background-color: #501B1D !important;
     font-family: Secular_One, sans-serif;
-    color:white!important;
-    border:none;
-    border-radius: 5%;
+    color: white !important;
+    border: none;
+    border-radius: 8%;
     padding: 4px;
-    width: 12%;
 }
 
+/*footer syles*/
+.footer {
+    border:none!important;
+}
+
+.footer > div > a {
+    color: darkgray!important;
+}
