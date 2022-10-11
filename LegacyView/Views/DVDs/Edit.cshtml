@@ -43,6 +43,12 @@
                 <input asp-for="DVDCustomerReview" class="form-control" />
                 <span asp-validation-for="DVDCustomerReview" class="text-danger"></span>
             </div>
+            <!--Added for production Company-->
+            <div class="form-group">
+                <label asp-for="DVDProductionCompany" class="control-label"></label>
+                <input asp-for="DVDProductionCompany" class="form-control" />
+                <span asp-validation-for="DVDProductionCompany" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>

@@ -40,7 +40,8 @@ namespace LegacyView.Models
         //Customer Review is based on half point rating
         public decimal DVDCustomerReview { get; set; }
 
-        //public string DVDProductionCompany { get; set; } //added a new property
+        [Display(Name = "Production Company")]
+        public string DVDProductionCompany { get; set; } //added a new property
     }
         
 }

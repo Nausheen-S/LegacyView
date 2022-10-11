@@ -47,6 +47,10 @@
             <th>
                 @Html.DisplayNameFor(model => model.DVDs[0].DVDCustomerReview)
             </th>
+            <!--new field added-->
+            <th>
+                @Html.DisplayNameFor(model => model.DVDs[0].DVDProductionCompany)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -70,6 +74,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DVDCustomerReview)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DVDProductionCompany)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.DVDId">Edit</a> |

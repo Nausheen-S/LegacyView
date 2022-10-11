@@ -113,3 +113,18 @@
 	 - Tested the app. Everything works fine.
 	 - As the project requires us to have 5 properties apart from customer review, I will add an additional field.
 	 - But first, push all changes to GitHub.
+
+	 0939
+	 - Added new field for production company
+	 - Updated CRUD to accomodate new field
+	 - Updated SeedData as well.
+	 - Now need to add and update migrations
+
+	 0949
+	 - new column added.
+	 - will now delete data to add the seed data with additional column.
+
+	 0958
+	 - Seeded data
+	 - App works fine
+	 - Now push changes to GitHub

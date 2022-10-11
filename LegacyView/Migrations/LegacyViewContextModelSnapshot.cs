@@ -27,7 +27,7 @@ namespace LegacyView.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<decimal>("DVDCustomerReview")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(2, 1)");
 
                     b.Property<string>("DVDDescription")
                         .HasColumnType("nvarchar(max)");
@@ -39,7 +39,10 @@ namespace LegacyView.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("DVDPrice")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
+
+                    b.Property<string>("DVDProductionCompany")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");

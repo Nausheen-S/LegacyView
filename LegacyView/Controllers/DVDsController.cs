@@ -78,7 +78,7 @@ namespace LegacyView.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("DVDId,DVDName,DVDGenre,DVDDescription,DVDPrice,ReleaseDate,DVDCustomerReview")] DVD dVD)
+        public async Task<IActionResult> Create([Bind("DVDId,DVDName,DVDGenre,DVDDescription,DVDPrice,ReleaseDate,DVDCustomerReview, DVDProductionCompany")] DVD dVD)
         {
             if (ModelState.IsValid)
             {
@@ -110,7 +110,7 @@ namespace LegacyView.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("DVDId,DVDName,DVDGenre,DVDDescription,DVDPrice,ReleaseDate,DVDCustomerReview")] DVD dVD)
+        public async Task<IActionResult> Edit(int id, [Bind("DVDId,DVDName,DVDGenre,DVDDescription,DVDPrice,ReleaseDate,DVDCustomerReview, DVDProductionCompany")] DVD dVD) //bind new property
         {
             if (id != dVD.DVDId)
             {

@@ -32,6 +32,7 @@ namespace LegacyView.Models
                         DVDDescription = "Discovery series from Star Trek Franchise",
                         DVDPrice = 35.99M,
                         ReleaseDate = DateTime.Parse("2022-12-06"),
+                        DVDProductionCompany = "Paramount Pictures",
                         DVDCustomerReview = 3.0M
                     },
                     new DVD
@@ -41,6 +42,7 @@ namespace LegacyView.Models
                         DVDDescription = "Picard series from Star Trek Franchise",
                         DVDPrice = 24.99M,
                         ReleaseDate = DateTime.Parse("2022-10-04"),
+                        DVDProductionCompany = "Paramount Pictures",
                         DVDCustomerReview = 3.5M
                     },
                     new DVD
@@ -50,6 +52,7 @@ namespace LegacyView.Models
                         DVDDescription = "A father and his two teenage daughters find themselves hunted by a massive rogue lion intent on proving that the Savannah has but one apex predator.",
                         DVDPrice = 17.95M,
                         ReleaseDate = DateTime.Parse("2022-10-11"),
+                        DVDProductionCompany = "Universal Studios",
                         DVDCustomerReview = 3.0M
                     },
                     new DVD
@@ -59,6 +62,7 @@ namespace LegacyView.Models
                         DVDDescription = "The story revolves around a scrappy young dog who fights to save a town from becoming the litter box of a nefarious feline warlord.",
                         DVDPrice = 17.95M,
                         ReleaseDate = DateTime.Parse("2022-10-10"),
+                        DVDProductionCompany = "Paramount Pictures",
                         DVDCustomerReview = 3.0M
                     },
                     new DVD
@@ -68,6 +72,7 @@ namespace LegacyView.Models
                         DVDDescription = "A detective investigates the death of a patriarch of an eccentric, combative family.",
                         DVDPrice = 5.00M,
                         ReleaseDate = DateTime.Parse("2020-02-25"),
+                        DVDProductionCompany = "Lionsgate Films",
                         DVDCustomerReview = 3.0M
                     },
                     new DVD
@@ -77,6 +82,7 @@ namespace LegacyView.Models
                         DVDDescription = "A farmer builds a baseball field to inspire Chicago Black Sox to play ball again.",
                         DVDPrice = 5.00M,
                         ReleaseDate = DateTime.Parse("2012-01-10"),
+                        DVDProductionCompany = "Universal Studios",
                         DVDCustomerReview = 4.0M
                     },
                     new DVD
@@ -86,6 +92,7 @@ namespace LegacyView.Models
                         DVDDescription = "A woman leaves a convent to become governess to the seven children of a Naval officer widower.",
                         DVDPrice = 4.40M,
                         ReleaseDate = DateTime.Parse("2015-03-10"),
+                        DVDProductionCompany = "20th Century Fox",
                         DVDCustomerReview = 4.0M
                     },
                     new DVD
@@ -95,6 +102,7 @@ namespace LegacyView.Models
                         DVDDescription = "A documentary on the various facets of World War II.",
                         DVDPrice = 4.40M,
                         ReleaseDate = DateTime.Parse("2012-09-18"),
+                        DVDProductionCompany = "Periscope Films",
                         DVDCustomerReview = 5.0M
                     },
                     new DVD
@@ -104,6 +112,7 @@ namespace LegacyView.Models
                         DVDDescription = "An army ranger and his dog embark on a road trip to attend a friend's funeral.",
                         DVDPrice = 12.90M,
                         ReleaseDate = DateTime.Parse("2022-05-10"),
+                        DVDProductionCompany = "Warner Bros.",
                         DVDCustomerReview = 2.5M
                     },
                     new DVD
@@ -113,6 +122,7 @@ namespace LegacyView.Models
                         DVDDescription = "Two women exchange homes and end up finding love.",
                         DVDPrice = 5.00M,
                         ReleaseDate = DateTime.Parse("2007-03-13"),
+                        DVDProductionCompany = "Sony Pictures",
                         DVDCustomerReview = 3.5M
                     }
                 );
