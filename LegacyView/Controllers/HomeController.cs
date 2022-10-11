@@ -28,6 +28,12 @@ namespace LegacyView.Controllers
             return View();
         }
 
+        //Add for about us page
+        public IActionResult About()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

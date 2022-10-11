@@ -138,3 +138,11 @@
 	 - tested the app, it works fine
 	 - Will now push to GitHub
 	 - Then need to add page for about us and update links.
+
+	 1045
+	 - updated links for DVD list
+	 - updated the data in pages
+	 - Added new about us page
+	 - Updated controller and views for new page
+	 - tested app, works fine
+	 - push to GitHub now
