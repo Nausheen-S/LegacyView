@@ -172,3 +172,11 @@
 	 - Tested everything, works fine
 	 - Push code now to GitHub
 	
+	1437
+	- Initially though of adding posters, but as db content looks heavy, will add some static images instead
+	- have to update copyright year to be updatable
+
+	1447
+	- Updated the year and tested app
+	- push to github
+	- to do: add images, publish to azure
