@@ -33,15 +33,19 @@ namespace LegacyView.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DVDGenre")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DVDName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(60)")
+                        .HasMaxLength(60);
 
                     b.Property<decimal>("DVDPrice")
                         .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("DVDProductionCompany")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ReleaseDate")

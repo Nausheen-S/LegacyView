@@ -36,6 +36,9 @@ namespace LegacyView
             //register LegacyViewContext 
             services.AddDbContext<LegacyViewContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("LegacyViewContext")));
+            //added for deployment
+            services.AddDbContext<LegacyViewContext>(options =>
+              options.UseSqlServer(Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
             services.AddRazorPages();
         }
 

@@ -205,3 +205,12 @@
 	- the publish breaks the code
 	- have now reverted to old version on localhost.
 	- checked app, works fine
+
+	1243
+	- Tried from home machine, app now published
+	- however, db does not work as unable to update db from mac.
+	- will try to use Windows machine
+	- everything else, i.e., static pages works well on azure
+	- the localhost app works as well.
+	- push changes to GitHub now.
+	- Changes made to Startup.cs and appSettings.json
