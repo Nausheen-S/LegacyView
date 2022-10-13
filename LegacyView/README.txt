@@ -220,3 +220,8 @@
 	- local still works
 	- pushing changes to git. 
 	- will check the app once from mac before submitting
+	
+	1330
+	- checked app, everything works fine
+	- also updated main readme with azure link.
+	- will now make repo public and submit for evaluation.
