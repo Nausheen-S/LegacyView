@@ -199,3 +199,9 @@
 	- commented port for college system, will change back on personal system
 	- got error on publish : HTTP Error 500.30 - ANCM In-Process Start Failure
 	- will check on personal system
+
+	1128
+	- remove http port comment
+	- the publish breaks the code
+	- have now reverted to old version on localhost.
+	- checked app, works fine
