@@ -214,3 +214,9 @@
 	- the localhost app works as well.
 	- push changes to GitHub now.
 	- Changes made to Startup.cs and appSettings.json
+
+	1323
+	- tried with windows machine, still an error in db on azure.
+	- local still works
+	- pushing changes to git. 
+	- will check the app once from mac before submitting
