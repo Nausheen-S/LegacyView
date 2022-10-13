@@ -185,3 +185,17 @@
 	- Added images and tested app
 	- looks good
 	- push to GitHub and then begin deployment
+
+	2022-10-13 1013
+	- Build and test app. 
+	- Trying deployment on college system for Windows OS.
+	- The username and password for server are: nsalauddin (WEB452proj)
+	- connection string: Data Source=coredbserverlv.database.windows.net,1433;Initial Catalog=coreDb;User ID=nsalauddin;Password=WEB452proj
+	- college sys ip addr: 204.225.7.240
+
+	1124
+	- Added the data to allow publish
+	- changed Startup.cs and appSettings.json to hold connection string
+	- commented port for college system, will change back on personal system
+	- got error on publish : HTTP Error 500.30 - ANCM In-Process Start Failure
+	- will check on personal system

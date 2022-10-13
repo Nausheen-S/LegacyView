@@ -35,7 +35,7 @@ namespace LegacyView
             services.AddControllersWithViews();
             //register LegacyViewContext 
             services.AddDbContext<LegacyViewContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("LegacyViewContext")));
+            options.UseSqlServer(Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING")));
             services.AddRazorPages();
         }
 
