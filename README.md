@@ -14,4 +14,4 @@
 - Link to detailed [README.txt](https://github.com/NausheenSalauddin/LegacyView/blob/master/LegacyView/README.txt).
 
 ## Deployed Project:
- - The project is deployed using Microsoft Azure. Click here to view:
+ - The project is deployed using Microsoft Azure. [Click here to view](https://coresqllv.azurewebsites.net/)
